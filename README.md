@@ -1,6 +1,8 @@
 Homework 1 (30 Points)
 ----------------------
 
+**Due date: Thursday, February 2, 11:55pm.**
+
 The purpose of this homework is to get you up and running with all the tools you will be using over the course of the semester. 
 
 In order to get full credit you must do several things.
