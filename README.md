@@ -131,7 +131,7 @@ In this step you are going to run some `sbt` commands that you will need while w
   </ul>
 * Start `sbt` by running the ```sbt``` command. After `sbt` does some initialization of the project, you will be presented with a command prompt ```>```
 * Enter the command ```compile```. This will run all the Java code under the `src/` directory.
-* Enter the command ```test```. This will run all the JUnit tests found under the `src/test` directory. (There is only one right now, but you will be writing one later in this assignment.)
+* Enter the command ```test```. This will run all the JUnit tests found under the `src/test` directory. (There is only one right now.)
 * Copy the terminal output for the above commands to the file `sbt-rocks.txt`.
 * Type `Ctrl+c` to quit `sbt`.
 * Use the following commands to publish your changes to Github:<br>
@@ -140,7 +140,7 @@ In this step you are going to run some `sbt` commands that you will need while w
 
 You can confirm that everything was successful by browsing the `sbt-rocks.txt` file on Github.
 
-Step 5: Get Intellij & Clion
+Step 5: Get IntelliJ & CLion
 ---------------------------------
 We will be using the [IntelliJ Idea Java IDE](https://www.jetbrains.com/idea/) as well as the [CLion C++ IDE](https://www.jetbrains.com/clion/). It is what we will use in class. And I will be demonstrating debugging and development techniques with these tools that will make your life easier. 
 
