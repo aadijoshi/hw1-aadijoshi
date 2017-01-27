@@ -193,10 +193,9 @@ Step 7: Execute Point.java in IntelliJ (10 Points)
 * Click the green arrow. You should see some output in a pane at the bottom of IntelliJ like this.
    ```Point(1.0, 2.0, 3.0, 4.0)
       Distance from origin: 5.477225575051661```
-* In the 'VCS' menu, click the entry that says 'Enable Version Control Integration'
-* Select 'Git'. Hit 'OK'.
+* In the 'VCS' menu, open the submenu that says 'Git' and click the entry 'Add'.
 * Open the Git integration window by using the command 'Command+k' on OSX or the command 'Ctrl+k' on Ubuntu.
-* Enter a commit message.
+* Enter a descriptive commit message (e.g., 'Adding file Point.java').
 * On the 'Commit' button there is a little arrow pointing down. Click it and select 'Commit & Push'.
 * Complete the push to the master branch.
 * Check your repository page on Github and confirm that `Point.java` is now in the repository.
