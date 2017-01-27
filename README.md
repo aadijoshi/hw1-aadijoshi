@@ -40,7 +40,7 @@ Step 2: Install tools
 ---------------------
 <b><u>Homebrew</u></b> [OSX only] 
  
-Homebrew is a package manager for OSX, which makes installing development software much easier. We will use it to install Sbt and Astyle. You will find it useful in the future for install of other things as well.
+Homebrew is a package manager for OSX, which makes installing development software much easier. We will use it to install Sbt and AStyle. You will find it useful in the future for install of other things as well.
 
 * [OSX] Install using the instructions [here](http://brew.sh/)
 
@@ -90,9 +90,13 @@ Sbt is an open source build tool for Scala and Java projects, similar to Maven o
 
 ** More detailed instructions can be found [here](http://www.scala-sbt.org/release/tutorial/Installing-sbt-on-Linux.html).
 
-<b><u>Astyle</u></b>  
+<b><u>AStyle</u></b>  
 
-AStyle is a code formatter that works for Java and C++. This will be critical for collaboration and debugging of your code. In our Sbt project I have included custom tasks that will run the formatter for you on the your source and target code. However, in order for this to work you must install Astyle first.
+AStyle is a code formatter that works for Java and C++. This will be
+critical for collaboration and debugging of your code. In our Sbt
+project I have included custom tasks that will run the formatter for
+you on the input and output code of your translator. However, in order
+for this to work you must install AStyle first.
 
 * [OSX] ```brew install astyle```
 * [Ubuntu] ```sudo apt-get install astyle```
@@ -178,7 +182,7 @@ Step 7: Execute Point.java in IntelliJ (10 Points)
 --------------------------------------
 * Download [Point.java](https://cs.nyu.edu/wies/teaching/oop-sp17/materials/Point.java)
 * Save it into your `hw1` project to the `src/main/java/edu/nyu/oop` directory.
-* In Intellij on the left pane titled 'Project', using what you learned about the `sbt` directory structure, navigate the project and find `Point.java`. Open it.
+* In IntelliJ on the left pane titled 'Project', using what you learned about the `sbt` directory structure, navigate the project and find `Point.java`. Open it.
 * Click the 'Run' menu item. Click "Edit Configurations". 
 * In the top left corner click the '+' icon.
 * Click 'Application'.
