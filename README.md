@@ -106,10 +106,10 @@ Step 3: Clone your personal hw1 repository and push a commit (10 Points)
 -------------------------------------------------
 You should have received an email from Github notifying you that you have been added to the 'nyu-oop-sp17' organization. This means you have access to class repositories. This is where you will get your homework assignments as well as project resources and code used in class.
 
-* Open a browser at `https://github.com/nyu-oop-sp17/<YOUR-GITHUB-USERNAME>-hw1` with your Github username inserted at the appropriate place in the URL.
+* Open a browser at `https://github.com/nyu-oop-sp17/hw1-<YOUR-GITHUB-USERNAME>` with your Github username inserted at the appropriate place in the URL.
 * Choose a place on your computer for your homework assignments to reside and open a terminal to that location.
 * Execute the following series of commands: <br/>
-  ```git clone https://github.com/nyu-oop-sp17/<YOUR-GITHUB-USERNAME>-hw1.git```<br/>
+  ```git clone https://github.com/nyu-oop-sp17/hw1-<YOUR-GITHUB-USERNAME>.git```<br/>
   ```cd hw1   ```<br/>
   ```>sbt-rocks.txt   ```<br/>
   ```git add sbt-rocks.txt    ```<br/>
