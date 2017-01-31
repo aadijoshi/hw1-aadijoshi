@@ -1,0 +1,8 @@
+@BeforeClass - beforeClass
+@Before - setUp
+@After - tearDown
+@Before - setUp
+@After - tearDown
+@AfterClass - afterClass
+[info] Passed: Total 2, Failed 0, Errors 0, Passed 2
+[success] Total time: 1 s, completed Jan 31, 2017 5:44:34 PM
